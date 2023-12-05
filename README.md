@@ -16,15 +16,13 @@ This repository contains the data and code used for the article "Navigating Gene
  ┗ 📜 ema_gene.tiff
 
 ```
-# Navigating Gene Therapy Access: The case of Bulgaria in the context of EU Regulatory Landscape
 
 ## Overview
 
-This repository contains data and code related to the article "Navigating Gene Therapy Access: The case of Bulgaria in the context of EU Regulatory Landscape." Below is a brief overview of the main components:
 
 ### `data_requests`
 
-This directory holds the data requests sent to the National Health Insurance Fund (NHIF) and the National Council on Prices and Reimbursement of Medicinal Products (NCPRMP). It includes the initial requests and their corresponding responses.
+This directory holds the data requests sent to the National Health Insurance Fund (NHIF) and the National Council on Prices and Reimbursement of Medicinal Products (NCPRMP). It includes the initial requests and their corresponding responses. Both requests and responses are in Bulgarian language. The files are named as follows:
 
 - [NHIF_request.pdf](data_requests/NHIF_request.pdf)
 - [NHIF_answer.pdf](data_requests/NHIF_answer.pdf)
@@ -33,7 +31,14 @@ This directory holds the data requests sent to the National Health Insurance Fun
 
 ### `ema_list.xlsx`
 
-This Excel file, `ema_list.xlsx`, encompasses a list of all Advanced Therapy Medicinal Products (ATMP) approved by the European Medicines Agency (EMA) as of April 1, 2023.
+This Excel file, `ema_list.xlsx`, encompasses a list of all Advanced Therapy Medicinal Products (ATMP) approved by the European Medicines Agency (EMA) as of April 1, 2023. The list is based on the [EMA's list of ATMPs](https://www.ema.europa.eu/en/human-regulatory/overview/advanced-therapy-medicinal-products-overview) and the [EMA's list of orphan medicines](https://www.ema.europa.eu/en/human-regulatory/overview/orphan-designation-overview). The file contains the following columns:
+
+- `name` - the name of the ATMP
+- `type` - the type of the ATMP (gene therapy, somatic cell therapy, tissue-engineered product)
+- `orphan` - whether the ATMP has an orphan designation (yes, no)
+- `prime` - whether the ATMP has a PRIME designation (yes, no)
+- `comments` - whether the ATMP had been withdrawn (with date of withdrawal) 
+- `date` - the date of the ATMP's approval
 
 ### `literature_review_references.bib`
 
@@ -45,10 +50,9 @@ The figure `ema_gene.tiff` is the visual representation used in the article.
 
 Feel free to explore the directories and files for more details.
 
-
 ## Citation
 
-If you find this repository helpful, please consider citing our article:
+If you find this repository helpful, please consider citing it as follows:
 
 ```bibtex
 @misc{Kostadinov_2023_data,
@@ -57,3 +61,4 @@ If you find this repository helpful, please consider citing our article:
   howpublished = {\url{https://github.com/kostadinoff/Navigating-Gene-Therapy-Access--The-case-of-Bulgaria-in-the-context-of-EU-Regulatory-Landscape}},
   year = {2023},
 }
+```
