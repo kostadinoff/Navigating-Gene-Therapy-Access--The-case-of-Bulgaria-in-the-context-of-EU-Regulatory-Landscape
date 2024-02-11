@@ -61,11 +61,14 @@ If you find this repository helpful, please consider citing it as follows:
   rights={http://creativecommons.org/licenses/by/3.0/}, 
   ISSN={2227-9032}, 
   url={https://www.mdpi.com/2227-9032/12/4/458}, 
-  DOI={10.3390/healthcare12040458}, number={4}, 
+  DOI={10.3390/healthcare12040458}, 
+  number={4}, 
   journal={Healthcare},
-   author={Kostadinov, Kostadin and Marinova, Yuliyana and Dimitrov, Kostadin and Hristova-Atanasova, Eleonora and Iskrov, Georgi and Stefanov, Rumen}, 
-   year={2024}, 
-   month={1}, 
-   pages={458}, 
-   language={en} 
-   }
+  author={Kostadinov, Kostadin and Marinova, Yuliyana and Dimitrov, Kostadin and Hristova-Atanasova, Eleonora and Iskrov, Georgi and Stefanov, Rumen}, 
+  year={2024}, 
+  month={1}, 
+  pages={458}, 
+  language={en} 
+}
+```
+
