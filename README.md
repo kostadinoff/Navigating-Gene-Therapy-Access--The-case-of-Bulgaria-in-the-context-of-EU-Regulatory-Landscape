@@ -55,10 +55,17 @@ Feel free to explore the directories and files for more details.
 If you find this repository helpful, please consider citing it as follows:
 
 ```bibtex
-@misc{Kostadinov_2023_data,
-  title = {Navigating Gene Therapy Access: The case of Bulgaria in the context of EU Regulatory Landscape - Data repository},
-  author = {Kostadinov, Kostadin and Iskrov, Georgi and Marinova, Yuliana and Hristova, Eleonora and Stefanov, Rumen},
-  howpublished = {\url{https://github.com/kostadinoff/Navigating-Gene-Therapy-Access--The-case-of-Bulgaria-in-the-context-of-EU-Regulatory-Landscape}},
-  year = {2023},
-}
-```
+@article{Kostadinov_2024, 
+  title={Navigating Gene Therapy Access: The Case of Bulgaria in the Context of the EU Regulatory Landscape}, 
+  volume={12}, 
+  rights={http://creativecommons.org/licenses/by/3.0/}, 
+  ISSN={2227-9032}, 
+  url={https://www.mdpi.com/2227-9032/12/4/458}, 
+  DOI={10.3390/healthcare12040458}, number={4}, 
+  journal={Healthcare},
+   author={Kostadinov, Kostadin and Marinova, Yuliyana and Dimitrov, Kostadin and Hristova-Atanasova, Eleonora and Iskrov, Georgi and Stefanov, Rumen}, 
+   year={2024}, 
+   month={1}, 
+   pages={458}, 
+   language={en} 
+   }
